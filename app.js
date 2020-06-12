@@ -1,8 +1,8 @@
 // Requirements
-const   express         = require("express"),
-        app             = express(),
-        bodyParser      = require("body-parser");
-        
+import express from "express";
+import bodyParser from "body-parser";
+
+const app = express();
 
 // App Set-Up
 
