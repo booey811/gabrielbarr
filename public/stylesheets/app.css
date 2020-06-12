@@ -1,0 +1,33 @@
+body {
+    background-color: whitesmoke;
+}
+
+.secondary.pointed.menu {
+    background-color: #525E67;
+}
+
+div.secondary.pointed.menu a {
+    color: whitesmoke;
+}
+
+div.secondary.pointed.menu div {
+    color: whitesmoke;
+}
+
+i.icon {
+    font-size: 2em;
+    padding-right: 1.5em;
+    color: whitesmoke;
+}
+
+.ui.secondary.menu .active.item {
+    background: whitesmoke;
+    color: #525E67;
+    font-weight: 800;
+}
+
+.ui.container.main-top {
+    margin-top: 6.0em;
+    background-color: inherit;
+    border: none;
+}
