@@ -2,7 +2,7 @@
   "name": "gabrielbarr",
   "version": "1.0.0",
   "description": "Personal Website",
-  "main": "app.js",
+  "main": "app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
