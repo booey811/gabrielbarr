@@ -1,11 +1,14 @@
 // Requirements
 import express from "express";
 import bodyParser from "body-parser";
+import path from 'path';
 
+
+const PORT = process.env.PORT || 3811
 const app = express();
 
-// App Set-Up
 
+// App Set-Up
 
 
 
@@ -19,6 +22,4 @@ app.get("/", function(req, res){
 
 
 
-app.listen(3811, function(){
-	console.log("gabrielbarr running");
-});
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
