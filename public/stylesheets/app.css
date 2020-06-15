@@ -1,5 +1,6 @@
 body {
     background-color: whitesmoke;
+    font-family: 'Lemonada', cursive;
 }
 
 .secondary.pointed.menu {
@@ -19,17 +20,32 @@ div.secondary.pointed.menu div {
     padding: auto;
 }
 
-i.icon {
-    font-size: 2em;
-    padding-right: 1.5em;
-    color: whitesmoke;
-}
-
 #gb-logo {
     width: 5em;
     padding-top: 5px;
     margin: auto;
 }
+
+#background-strip {
+    padding: none;
+    width: auto;
+}
+
+#custom-jumbo {
+    background: url("/images/fireside.jpeg");
+    background-size: cover;
+    width: 1600px;
+    height: 600px;
+    
+}
+
+
+.ui.header.quote {
+    color: white;
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
 
 .ui.secondary.menu .active.item {
     background: whitesmoke;
@@ -37,12 +53,17 @@ i.icon {
     font-weight: 800;
 }
 
-.ui.container.main-top {
-    margin-top: 6.0em;
+.ui.container.main {
+    margin-top: 7.0em;
     background-color: inherit;
     border: none;
+    box-shadow: none ;
 }
 
-.ui.simple.dropdown.item :hover {
-    color: whitesmoke;
+#landing-text {
+    font-size: 2rem;
+    text-align: center;
+    color: #525E67;
+    margin-top: 0.5em;
 }
+

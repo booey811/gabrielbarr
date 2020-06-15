@@ -1,0 +1,51 @@
+<%- include("partials/header") %>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/colors.css">
+
+
+
+
+
+<div class="container segment" id="main-segment">
+    <div class="container" id="colors-title">
+        <h2 class="ui header" id="color-header">Colour Guesser</h2>
+        <span id="colorDisplay">RGB</span>
+    </div>
+    <div class="ui grid">
+
+        <div class="five wide column" id="game-menu">
+                
+            <div class="row">
+                <button class="ui button inverted active" id="reset">New Game</button>
+            </div>
+
+            <div class="row"><span id="message">Pick A Colour</span></div>
+                
+            <div class="row">
+                <select class="ui dropdown" id="difficulty">
+                    <option value="">Difficulty</option>
+                    <option value=3>Easy</option>
+                    <option value=6>Medium</option>
+                    <option value=9>Hard</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="eleven wide column">
+
+
+            <div id="colors-container">
+                <div class="colors-square"></div>
+                <div class="colors-square"></div>
+                <div class="colors-square"></div>
+                <div class="colors-square"></div>
+                <div class="colors-square"></div>
+                <div class="colors-square"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/scripts/colors.js"></script>
+
+<%- include("partials/footer") %>

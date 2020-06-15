@@ -28,10 +28,15 @@ app.get("/music", function(req, res){
     res.render("music")
 });
 
-// Projects Page
-app.get("/projects", function(req, res){
-    res.render("projects")
-});
+// Color Game
+app.get("/colors", function(req, res){
+    res.render("colors")
+})
+
+//Parapper Rip
+app.get("/parapperrip", function (req, res){
+    res.render("parapperrip")
+})
 
 // About Page
 app.get("/about", function(req, res){

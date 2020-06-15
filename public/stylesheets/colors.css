@@ -1,0 +1,46 @@
+#main-segment {
+    margin-top: 100px;
+    background-color: #757A82;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 8em;
+}
+
+#colors-title {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#colors-menu {
+    padding: 30%;
+}
+
+#colors-container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#game-menu {
+    text-align: center;
+    padding: 3%;
+    align-items: center;
+}
+
+#game-menu .row {
+    height: 30%;
+    align-self: auto;
+}
+
+#color-header {
+    padding-top: 1%;
+}
+
+.colors-square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 35%;
+}
+
