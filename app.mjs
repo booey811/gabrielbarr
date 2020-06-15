@@ -23,6 +23,11 @@ app.get("/", function(req, res){
     res.render("index")
 });
 
+// Music
+app.get("/music", function(req, res){
+    res.render("music")
+});
+
 // Projects Page
 app.get("/projects", function(req, res){
     res.render("projects")
@@ -36,7 +41,7 @@ app.get("/about", function(req, res){
 // Contact Page
 app.get("/contact", function(req, res){
     res.render("contact")
-})
+});
 
 
 

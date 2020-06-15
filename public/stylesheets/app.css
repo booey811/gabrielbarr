@@ -6,6 +6,7 @@ body {
     background-color: #525E67;
 }
 
+
 div.secondary.pointed.menu a {
     color: whitesmoke;
 }
@@ -14,10 +15,20 @@ div.secondary.pointed.menu div {
     color: whitesmoke;
 }
 
+#logo-container {
+    padding: auto;
+}
+
 i.icon {
     font-size: 2em;
     padding-right: 1.5em;
     color: whitesmoke;
+}
+
+#gb-logo {
+    width: 5em;
+    padding-top: 5px;
+    margin: auto;
 }
 
 .ui.secondary.menu .active.item {
@@ -30,4 +41,8 @@ i.icon {
     margin-top: 6.0em;
     background-color: inherit;
     border: none;
+}
+
+.ui.simple.dropdown.item :hover {
+    color: whitesmoke;
 }
