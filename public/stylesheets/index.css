@@ -1,0 +1,41 @@
+.slide_image {
+    margin: auto;
+}
+
+
+.glide__track {
+    text-align: center;
+    margin: auto;
+    align-content: center;
+}
+
+.glide__slide {
+    text-align: center;
+    justify-content: center;
+    text-justify: center;
+    width: 50%;
+}
+
+.glide__slides {
+    text-align: center;
+    justify-content: center;
+    text-justify: center;
+    
+}
+
+.glide__arrow.glide__arrow--left {
+    background-color: #525E67;
+}
+.glide__arrow.glide__arrow--right {
+    background-color: #525E67;
+}
+
+#carousel {
+    width: 60%;
+    background-color: inherit;
+    border: none;
+    box-shadow: 1rem;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}

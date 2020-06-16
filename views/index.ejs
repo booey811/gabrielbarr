@@ -1,5 +1,7 @@
 <%- include("partials/header") %>
 
+<link rel="stylesheet" href="/stylesheets/index.css">
+
 <div class="ui container segment main" id="background-strip">
         <div class="ui fluid container" id="custom-jumbo">
             <div class="ui grid">
@@ -29,6 +31,46 @@
 </div>
 
 <div class="ui divider"></div>
+
+<div class="ui container segment" id="carousel">
+
+    <h1 class="ui header">Stuff I Dun</h1>
+
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="ui large image">
+                            <div class="ui blue ribbon label">
+                              <i class="spoon icon"></i> Food
+                            </div>
+                            <img src="images/landing1.jpeg" class="slide_image" alt="">
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="ui large image">
+                            <div class="ui blue ribbon label">
+                              <i class="spoon icon"></i> Food
+                            </div>
+                            <img src="images/landing1.jpeg" class="slide_image" alt="">
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="ui large image">
+                            <div class="ui blue ribbon label">
+                              <i class="spoon icon"></i> Food
+                            </div>
+                            <img src="images/landing1.jpeg" class="slide_image" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="caret left icon"></i></button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="caret right icon"></i></button>
+            </div>
+        </div>     
+</div>
 
 
 

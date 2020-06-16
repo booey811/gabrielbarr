@@ -67,3 +67,7 @@ div.secondary.pointed.menu div {
     margin-top: 0.5em;
 }
 
+.slide_image {
+    max-width: 40%;
+    max-height: 100%;
+}
