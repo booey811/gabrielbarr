@@ -1,0 +1,27 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+div.container.headings {
+    text-align: center;
+    text-justify: center;
+}
+
+div h1.ui.header {
+    font-family: inherit;
+    text-decoration: underline;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+div.ui.container.segment div.ui.right.rail {
+    text-align: left;
+    text-justify: left;
+    vertical-align: middle;
+    display: flex;
+}
+
+div.ui.container.segment div.ui.right.rail h3.ui.header {
+    font-family: 'Playfair Display', serif;
+    vertical-align: middle;
+}
