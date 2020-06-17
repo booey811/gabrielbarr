@@ -1,3 +1,21 @@
+$("div.ui.container .item").removeClass("active")
+
+$("#projects-button").css({
+    "background": "whitesmoke",
+    "color": "#525E67",
+    "font-weight": "800"
+})
+
+
+var text = new PointText(new Point((view.size.width/2), view.size.height/2));
+text.justification = 'center';
+text.fillColor = 'white';
+text.content = 'Press any letter key to make nice sounds and pretty shapes!';
+text.fontFamily = "Playfair Display"
+text.fontSize = "20"
+
+
+
 var keyData = {
     q: {
         sound: new Howl({

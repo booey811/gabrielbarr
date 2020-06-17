@@ -1,46 +1,95 @@
-#main-segment {
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Lemonada', cursive;
+}
+
+div.ui.container.segment {
+    background-color: #232323;
     margin-top: 100px;
-    background-color: #757A82;
-    margin-left: 2%;
-    margin-right: 2%;
-    border-radius: 8em;
 }
 
-#colors-title {
+h1 {
+    font-family: inherit;
+    color: white;
     text-align: center;
-    padding: 5% 10%;
+    line-height: 1.1;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    padding: 20px 0;
 }
 
-#colors-menu {
-    padding: 30%;
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
 }
 
-#colors-container {
-    margin: 0 auto;
-    max-width: 600px;
+button:hover {
+    color: white;
+    background-color: steelblue;
 }
 
-#game-menu {
-    text-align: center;
-    padding: 3%;
-    align-items: center;
+.selectedDifficulty {
+    background: steelblue;
+    color: white;
 }
 
-#game-menu .row {
-    height: 30%;
-    align-self: auto;
-}
-
-#color-header {
-    padding-top: 1%;
-}
-
-.colors-square {
+.square {
     width: 30%;
-    background: purple;
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
-    border-radius: 35%;
+    border-radius: 18%;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6%;
 }
 
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+    display: block;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+
+}
+
+#rgbNumber { 
+    font-size: 200%;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+#clearer {
+    clear: both;
+    height: 50px;
+}
+
+#help-text-container {
+    align-content: center;
+    clear: both;
+}
+
+p.help-text {
+    color: whitesmoke;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}

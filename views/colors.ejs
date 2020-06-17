@@ -1,51 +1,69 @@
 <%- include("partials/header") %>
 
-<link rel="stylesheet" type="text/css" href="/stylesheets/colors.css">
+<link rel="stylesheet" href="/stylesheets/colors.css">
 
 
+<div class="ui container segment">
+    <div class="ui container">
+        <h1 class="heading">What Colour
+            <br>
+            <span id="rgbNumber"></span>
+            <br>
+            Am I Thinking Of?
+        </h1>
 
-
-
-<div class="container segment" id="main-segment">
-    <div class="container" id="colors-title">
-        <h2 class="ui header" id="color-header">Colour Guesser</h2>
-        <span id="colorDisplay">RGB</span>
-    </div>
-    <div class="ui grid">
-
-        <div class="five wide column" id="game-menu">
-                
-            <div class="row">
-                <button class="ui button inverted active" id="reset">New Game</button>
-            </div>
-
-            <div class="row"><span id="message">Pick A Colour</span></div>
-                
-            <div class="row">
-                <select class="ui dropdown" id="difficulty">
-                    <option value="">Difficulty</option>
-                    <option value=3>Easy</option>
-                    <option value=6>Medium</option>
-                    <option value=9>Hard</option>
-                </select>
-            </div>
+        <div id="stripe">
+            <button id="reset">New Colors</button>
+            <span id="message"></span>
+            <button class = "mode" id="easybtn">Easy</button>
+            <button id= "hardbtn" class="mode selectedDifficulty">Hard</button>
+            <button id="vhardbtn" class="mode">Very Hard</button>
         </div>
 
-
-        <div class="eleven wide column">
-
-
-            <div id="colors-container">
-                <div class="colors-square"></div>
-                <div class="colors-square"></div>
-                <div class="colors-square"></div>
-                <div class="colors-square"></div>
-                <div class="colors-square"></div>
-                <div class="colors-square"></div>
-            </div>
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
         </div>
+
     </div>
+
+    <div id="clearer"></div>
+
+    <div class="container" id="help-text-container">
+        <p class="help-text">
+            All colours can be made from a combination of pure red, pure green, and pure blue light, which lead to a colour description system being developed, called RGB.
+        </p>
+        <p></p>
+        <p class="help-text">
+            In this system, the intensities of Red (R), Green (G) and Blue (B) light are given numbers ranging from 0 to 256, with higher numbers being more intense.
+            The acronymn RGB, followed by 3 numbers thereby describes a colour, which can be read and understood by computers and, in theory, humans.
+        </p>
+        <p></p>
+        <p class="help-text">
+            This game tests your ability to picture colours described in this way. Try to guess which of the displayed colours matches the RGB number displayed.
+        </p>
+        <p></p>
+        <p class="help-text">For Example:</p>
+        <p></p>
+        <p class="help-text">Pure Red has RGB(256, 0, 0)</p>
+        <p class="help-text">Pure Green has RGB(0, 256, 0)</p>
+        <p class="help-text">Pure Blue has RGB(0, 0, 256)</p>
+        <p class="help-text">and Bright White has RGB(256, 256, 256)</p>
+       
+    </div>
+
 </div>
-<script src="/scripts/colors.js"></script>
+
+
+<script type="text/javascript" src="/scripts/colors.js"></script>
+
+
 
 <%- include("partials/footer") %>

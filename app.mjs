@@ -31,21 +31,26 @@ app.get("/music", function(req, res){
 // Color Game
 app.get("/colors", function(req, res){
     res.render("colors")
-})
+});
 
 //Parapper Rip
 app.get("/parapperrip", function (req, res){
     res.render("parapperrip")
-})
+});
+
+// Nicky Soft Touch Page
+app.get("/nickysofttouch", function (req, res){
+    res.render("nicky")
+});
+
+// Zac Gates Page
+app.get("/zacgates", function (req, res){
+    res.render("zac")
+});
 
 // About Page
 app.get("/about", function(req, res){
     res.render("about")
-});
-
-// Contact Page
-app.get("/contact", function(req, res){
-    res.render("contact")
 });
 
 
