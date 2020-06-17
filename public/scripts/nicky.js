@@ -1,6 +1,11 @@
 $("div.ui.container .item").removeClass("active")
 
-$("#music-button").addClass("active")
+$("#collaborations-button").css({
+    "background": "whitesmoke",
+    "color": "#525E67",
+    "font-weight": "800"
+})
+
 
 
 // Carousel Set Up
