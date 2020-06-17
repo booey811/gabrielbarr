@@ -1,6 +1,7 @@
 body {
     background-color: whitesmoke;
     font-family: 'Lemonada', cursive;
+
 }
 
 .secondary.pointed.menu {
@@ -32,8 +33,6 @@ div.secondary.pointed.menu div {
 }
 
 #custom-jumbo {
-    background: url("/images/fireside.jpeg");
-    background-size: cover;
     width: 1600px;
     height: 600px;
     

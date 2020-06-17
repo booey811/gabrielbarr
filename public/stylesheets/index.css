@@ -1,3 +1,14 @@
+body {
+    background: url("/images/fireside.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+html {
+    height: 100%;
+}
+
 .slide_image {
     margin: auto;
 }
@@ -38,4 +49,14 @@
     margin-top: 50px;
     text-align: center;
     font-family: 'Lemonada', cursive;
+}
+
+#custom-jumbo {
+    width: 1600px;
+    height: 600px;
+}
+
+#projects-head {
+    color: whitesmoke;
+    text-align: center;
 }
