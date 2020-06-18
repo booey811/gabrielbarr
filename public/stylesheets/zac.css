@@ -25,3 +25,11 @@ div.ui.container.segment div.ui.right.rail h3.ui.header {
     font-family: 'Playfair Display', serif;
     vertical-align: middle;
 }
+
+div.ui.container.text-blocks p {
+    text-align: center;
+}
+
+div.ui.divider {
+    margin: 3% 10%;
+}
